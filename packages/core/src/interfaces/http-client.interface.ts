@@ -1,6 +1,6 @@
 // packages/core/src/interfaces/http-client.interface.ts
 
-export type HttpMethod = "GET" | "POST" | "PUT" | "PATCH" | "DELETE";
+export type HttpMethod = 'GET' | 'POST' | 'PUT' | 'PATCH' | 'DELETE';
 
 export interface IHttpRequest {
   method: HttpMethod;

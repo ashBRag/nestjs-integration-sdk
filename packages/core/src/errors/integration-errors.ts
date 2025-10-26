@@ -1,16 +1,16 @@
 // packages/core/src/errors/integration-error.ts
 
-import { IntegrationErrorCode } from "./error-codes.enum";
+import { IntegrationErrorCode } from './error-codes.enum';
 
 export class IntegrationError extends Error {
-  public readonly name = "IntegrationError";
+  public readonly name = 'IntegrationError';
 
   constructor(
     public readonly code: IntegrationErrorCode,
     public readonly message: string,
     public readonly details?: Record<string, unknown>,
     public readonly retryable: boolean = false,
-    public readonly httpStatus?: number,
+    public readonly httpStatus?: number
   ) {
     super(message);
     Error.captureStackTrace(this, this.constructor);

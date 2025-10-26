@@ -1,4 +1,4 @@
-import { IntegrationConfig } from "../config/index";
+import { IntegrationConfig } from '../config/index';
 
 export interface IIntegrationService {
   getConfig(): IntegrationConfig;
