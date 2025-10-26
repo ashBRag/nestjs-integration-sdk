@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 // packages/core/src/base/base-token-manager.ts
 
 import { ITokenProvider, ICacheProvider } from '../interfaces';

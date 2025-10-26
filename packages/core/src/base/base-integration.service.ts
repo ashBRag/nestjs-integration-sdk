@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 // packages/core/src/base/base-integration.service.ts
 
 import { IntegrationConfig, DEFAULT_INTEGRATION_CONFIG, INTEGRATION_CONFIGS } from '../config';

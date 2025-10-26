@@ -4,6 +4,7 @@ export class TokenDto {
   token: string;
   expiresAt: number;
   createdAt: number;
+  refreshToken?: string;
 }
 
 export class TokenRequestDto {
