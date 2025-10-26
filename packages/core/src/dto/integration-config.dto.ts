@@ -1,6 +1,6 @@
-// packages/core/src/config/integration-config.interface.ts
+// packages/core/src/dto/integration-config.dto.ts
 
-export interface IntegrationConfig {
+export class IntegrationConfigDto {
   name: string;
   displayName?: string;
   tokenManagement: {
@@ -16,9 +16,5 @@ export interface IntegrationConfig {
     requestsPerSecond?: number;
     requestsPerMinute?: number;
     requestsPerHour?: number;
-  };
-  cache?: {
-    enabled?: boolean;
-    ttl?: number;
   };
 }
