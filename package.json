@@ -1,5 +1,6 @@
 {
   "name": "nestjs-integration-sdk",
+  "author": "Aishwarya B R",
   "version": "1.0.0",
   "description": "Toolkit for building multi-tenant API integrations in NestJS",
   "private": true,
